@@ -1,18 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Laboratory Medicine Trainee Cases</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preanalytical Laboratory Errors: Hemolysis</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Laboratory Medicine Trainee Cases</h1>
+  <header class="mobile-header">
+    <a class="brand" href="#home" aria-label="Preanalytics learning home">
+      <span class="brand-mark">P</span>
+      <span>Preanalytics Lab</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+  </header>
 
-  <h2>Preanalytics</h2>
-  <ul>
-    <li>
-      <a href="preanalytics/case-01-hemolysis/">
-        Case 1: Hemolysis and Preanalytical Error
-      </a>
-    </li>
-  </ul>
+  <aside class="sidebar">
+    <a class="brand desktop-brand" href="#home" aria-label="Preanalytics learning home">
+      <span class="brand-mark">P</span>
+      <span>Preanalytics Lab</span>
+    </a>
+    <nav id="site-nav" class="site-nav" aria-label="Curriculum navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#objectives">Learning Objectives</a>
+      <a class="nav-link" href="#overview">Hemolysis Overview</a>
+      <a class="nav-link" href="#mechanisms">Mechanisms</a>
+      <a class="nav-link" href="#cases">Clinical Cases</a>
+      <a class="nav-link" href="#quiz">Final Quiz</a>
+    </nav>
+    <div class="sidebar-note">
+      <p>Module focus</p>
+      <strong>Hemolysis as a preanalytical error</strong>
+    </div>
+  </aside>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="section-inner hero-grid">
+        <div>
+          <p class="eyebrow">Pathology Resident Module</p>
+          <h1>Preanalytical Laboratory Errors</h1>
+          <p class="lead">A concise interactive introduction to hemolysis: how it occurs, why it matters, and how laboratory professionals recognize and manage its analytical impact.</p>
+          <div class="button-row">
+            <a class="button primary" href="#objectives">Start Module</a>
+            <a class="button secondary" href="#cases">Try Cases</a>
+          </div>
+        </div>
+        <figure class="specimen-panel">
+          <img src="assets/hemolysis-gradient.jpeg" alt="Serum specimens showing increasing degrees of hemolysis">
+          <figcaption>Visual comparison: non-hemolyzed to markedly hemolyzed serum</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="objectives" class="section">
+      <div class="section-inner">
+        <p class="eyebrow">Learning Objectives</p>
+        <h2>By the end of this module, residents should be able to:</h2>
+        <div class="objective-grid">
+          <article class="objective-card">
+            <span>01</span>
+            <h3>Define hemolysis</h3>
+            <p>Describe hemolysis as rupture of erythrocytes with release of intracellular constituents into plasma or serum.</p>
+          </article>
+          <article class="objective-card">
+            <span>02</span>
+            <h3>Recognize common causes</h3>
+            <p>Identify collection, transport, processing, and patient-related contributors to in vitro and in vivo hemolysis.</p>
+          </article>
+          <article class="objective-card">
+            <span>03</span>
+            <h3>Predict interference</h3>
+            <p>Explain how hemolysis affects selected chemistry, coagulation, hematology, and immunoassay results.</p>
+          </article>
+          <article class="objective-card">
+            <span>04</span>
+            <h3>Apply laboratory policy</h3>
+            <p>Use hemolysis indices, analyte-specific thresholds, and clinical context to decide when to report, cancel, or recollect.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Continue using the full index.html from the project file for the remaining sections. -->
+    <section id="overview" class="section alt">
+      <div class="section-inner two-column">
+        <div>
+          <p class="eyebrow">Hemolysis Overview</p>
+          <h2>Hemolysis is one of the most frequent preanalytical problems in clinical laboratories.</h2>
+          <p>Hemolysis occurs when red blood cell membranes rupture before or during analysis. The released hemoglobin and intracellular contents can alter measured analyte concentrations, change sample appearance, and trigger instrument flags or result suppression.</p>
+          <p>Most hemolysis detected by the laboratory is in vitro and related to collection or handling. Less commonly, hemolysis reflects an in vivo pathologic process such as hemolytic anemia, transfusion reaction, mechanical valve-associated hemolysis, or microangiopathy.</p>
+          <div class="callout">
+            <strong>Resident practice point:</strong>
+            <p>A hemolyzed specimen is not automatically a poor-quality result for every analyte. Interpretation should be analyte-specific and guided by local validation data.</p>
+          </div>
+        </div>
+        <div class="teaching-card">
+          <h3>Common preanalytical contributors</h3>
+          <ul class="check-list">
+            <li>Traumatic venipuncture or prolonged probing</li>
+            <li>Small-gauge needles or difficult line draws</li>
+            <li>Vigorous tube mixing or shaking</li>
+            <li>Delayed centrifugation or inappropriate storage</li>
+            <li>Pneumatic tube stress in vulnerable samples</li>
+            <li>Exposure to temperature extremes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- The complete file is already saved here:
+         /Users/maximo.marin/Documents/CodexProjects/PreanalyticsModules/index.html -->
+    <script src="script.js"></script>
 </body>
 </html>
